@@ -96,6 +96,25 @@ a {
   font-weight: 400;
 }
 
+.hero .story {
+  position: absolute;
+  left: 50%;
+  bottom: 10%;
+  transform: translateX(-50%);
+}
+
+.hero .story-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+.hero .svg {
+  text-align: center;
+}
+
 .button-cta {
   padding: 19.5px 87.5px;
   background-color: orange;
