@@ -10,3 +10,6 @@ System Requirements: Information on the hardware needed to run the game.
 Top Scores Section: Displays high scores from different games along with player names.  
 Newsletter Section: Allows users to subscribe to receive updates.
 Footer: Includes links to various sections and social media.
+
+Note  
+Please view the website at a resolution of 1440x960, as it is not fully responsive on all screens yet.
