@@ -63,7 +63,7 @@ a {
   height: 100vh;
   /* margin-top: -10px;
   clip-path: inset(10px 0); */
-  background-image: url('/Assets/main-bg.jpg');
+  background-image: url('Assets/main-bg.jpg');
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 20px 20px black;
@@ -129,7 +129,7 @@ a {
 /* about game */
 .usp {
   box-shadow: 0 0 20px 20px black;
-  background-image: url('/Assets/the-games-bg.jpg');
+  background-image: url('Assets/the-games-bg.jpg');
   background-size: cover;
   background-position: center;
   height: 100vh;
@@ -165,7 +165,7 @@ a {
 .usp__img-carousel {
   width: 50%;
   height: 50%;
-  background-image: url('/Assets/rockpaperstrategy-1600.jpg');
+  background-image: url('Assets/rockpaperstrategy-1600.jpg');
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -177,7 +177,7 @@ a {
 /* features */
 .features {
   height: 100vh;
-  background-image: url('/Assets/bg_features.png');
+  background-image: url('Assets/bg_features.png');
   box-shadow: 0 0 30px 30px black;
   background-size: cover;
   background-repeat: no-repeat;
@@ -427,7 +427,7 @@ a {
 .card-img {
   width: 65px;
   height: 65px;
-  background-image: url('/Assets/image8.jpg');
+  background-image: url('Assets/image8.jpg');
   background-size: contain;
   background-position: center;
   border-radius: 50%;
