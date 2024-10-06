@@ -1,8 +1,16 @@
-// const menuToggle = document.querySelector('.nav__menu-toggle');
-// const navLinks = document.querySelector('.nav__links');
+const toggleButton = document.querySelector('.navbar .mobile-menu-toggle');
+const mobileMenu = document.querySelector('.navbar .mobile-menu-items');
+toggleButton.addEventListener('click', function () {
+  mobileMenu.classList.toggle('active');
+});
 
-// menuToggle.addEventListener('click', () => {
-//   navLinks.style.display = navLinks.style.display === 'flex' ? 'none' : 'flex';
-// });
-
-console.log('test');
+//scroll animation
+window.addEventListener('scroll', function () {
+  const navbar = document.querySelector('.navbar');
+  console.log(window.scrollY);
+  if (this.window.scrollY > 622) {
+    navbar.classList.add('navbar-scroll');
+  } else {
+    navbar.classList.remove('navbar-scroll');
+  }
+});
