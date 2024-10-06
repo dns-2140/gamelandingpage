@@ -160,7 +160,7 @@ main {
 /* hero */
 
 .hero {
-  background: #000 url('/Assets/main-bg.jpg') center center/cover no-repeat;
+  background: #000 url('Assets/main-bg.jpg') center center/cover no-repeat;
   height: 100vh;
   padding: 11.5rem 2rem 8rem;
   color: white;
