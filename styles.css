@@ -8,7 +8,7 @@
 }
 
 :root {
-  --primary-color: orangered;
+  --primary-color: rgba(255, 174, 0, 0.944);
   --secondary-color: orange;
   --light-color: #f9fafb;
   --dark-color: rgba(26, 25, 23, 1);
@@ -118,7 +118,7 @@ main {
 }
 
 .navbar a:hover {
-  color: var(--secondary-color);
+  color: white;
 }
 
 /* mobile-menu */
@@ -129,6 +129,10 @@ main {
 .navbar .mobile-menu-toggle {
   color: #fff;
   cursor: pointer;
+}
+
+.navbar .signup {
+  margin-left: 350px;
 }
 
 .navbar .mobile-menu-items {
