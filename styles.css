@@ -211,9 +211,9 @@ main {
 
 .hero .story {
   position: absolute;
-  left: 45%;
+  left: 50%;
   bottom: 10%;
-  /* transform: translateX(-50%); */
+  transform: translateX(-50%);
   /* background-color: pink; */
 }
 .hero .story-text {
