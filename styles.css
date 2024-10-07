@@ -173,6 +173,12 @@ main {
   box-shadow: 0 0 30px 30px black;
 }
 
+.hero-content {
+  /* background-color: red; */
+  padding-top: 100px;
+  margin: 0 auto;
+}
+
 .hero-flex {
   display: flex;
   justify-content: center;
@@ -189,6 +195,7 @@ main {
   line-height: 91.76px;
   letter-spacing: 3px;
   text-align: center;
+  margin-bottom: 30px;
 }
 
 .hero p {
@@ -198,6 +205,25 @@ main {
   font-weight: 400;
   line-height: 30.59px;
   letter-spacing: 2px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.hero .story {
+  position: absolute;
+  left: 45%;
+  bottom: 10%;
+  /* transform: translateX(-50%); */
+  /* background-color: pink; */
+}
+.hero .story-text {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.hero .svg {
   text-align: center;
 }
 
